@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function coffee()
+        {
+            console.log("put 1 spoon of coffee");
+            console.log("put 1 spoon of sugar");
+            console.log("boil water");
+            console.log("put water into coffee");
+            console.log("put 50 cc of milk");
+        }
+
+function pizza()
+{
+    console.log ("prepare dough");
+    console.log ("add tomato sauce");
+    console.log ("add cheese");
+    console.log ("set oven to 180 degrees");
+    console.log ("put pizza in oven for 20 minutes");
+
+    pelet.innerHTML += "prepare dough<br>";
+    pelet.innerHTML += "add tomato sauce<br>";
+    pelet.innerHTML += "add chease<br>";
+    pelet.innerHTML += "set oven to 180 degrees<br>";
+    pelet.innerHTML += "put pizza in oven for 20 minutes<br>";
+}
+
+function coffeeNew() {
+    // pelet is ID of paragraph
+    // content if paragraph is:
+    // pelet.innerHTML
+    // we use += for adding text to paragraph
+    pelet.innerHTML += "put 1 spoon of coffee<br>";
+    pelet.innerHTML += "put 1 spoon of sugar<br>";
+    pelet.innerHTML += "boil water<br>";
+    pelet.innerHTML += "put water into coffee<br>";
+    pelet.innerHTML += "put 50 cc of milk<br>";
+}
+    </script>
+</head>
+<body>
+<button onclick="coffeeNew()">prepare coffee</button>
+<button onclick="pizza()">prepare pizza</button>
+<p id="pelet"></p>
+</body>
+</html>
